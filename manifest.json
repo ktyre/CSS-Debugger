@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "CSS Debugger",
+  "description": "This extension will debug your friggin' CSS",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
